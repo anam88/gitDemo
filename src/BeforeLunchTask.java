@@ -10,17 +10,17 @@ public class BeforeLunchTask {
         //write a program that check which is bigger number
 
 
-        boolean n1 = num1 > num2 && num1 > num3;
-        boolean n2 = num2 > num1 && num2 > num3;
-        boolean n3 = num3 > num1 && num3 > num2;
+        boolean n1Bigger = num1 > num2 && num1 > num3;
+        boolean n2Bigger = num2 > num1 && num2 > num3;
+        boolean n3Bigger = num3 > num1 && num3 > num2;
 
-        if(n1){
+        if(n1Bigger){
             System.out.println("n1 is bigger");
         }
-        if(n2){
+        if(n2Bigger){
             System.out.println("n2 is bigger");
         }
-        if(n3){
+        if(n3Bigger){
             System.out.println("n3 is bigger");
         }
 
