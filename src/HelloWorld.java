@@ -3,6 +3,7 @@ public class HelloWorld {
         System.out.println("Hello! Today was a Git class with Asiya.");
         System.out.println("Today is August 1 2020, doing my first commit to git!");
         System.out.println("git pull command");
+        System.out.println("git fetch and merge command");
     }
 
 }
